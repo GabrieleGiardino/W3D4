@@ -1,0 +1,170 @@
+header {
+    background-color: #232F3E;
+    padding: 10px 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+    padding-left: 10px;
+    flex: 1;
+    text-align: left;
+}
+
+header img {
+    height: 50px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    color: #ff9900;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+td, th {
+    padding: 8px;
+    text-align: center;
+}
+
+.amazon-link {
+    color: #FF9900;
+    text-decoration: none;
+}
+
+.invisible {
+    display: none;
+}
+
+.contenuto {
+    background-image: url('./Banner1.avif');
+    background-size: contain;
+    background-position: center ;
+    background-repeat: no-repeat;
+    padding: 20px;  
+}
+
+.hidden-buttons {
+    max-height: 0;  
+    overflow: hidden;  
+    transition: max-height 0.5s ease-out;  
+}
+
+
+#buttonContainer.visible {
+    max-height: 500px;  
+}
+
+button#toggleButtons {
+    background-color:white;  
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+
+button#toggleButtons:hover {
+    background-color: #0b7dda;  
+}
+
+footer {
+    text-align: right;
+}
+
+#myTextarea {
+    width: 100%; 
+    max-width: 400px; 
+    height: auto; 
+    padding: 10px; 
+    font-size: 16px; 
+    border: 2px solid #ccc; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    background-color: #f9f9f9; 
+  }
+  
+  #myTextarea:focus {
+    border-color: #3498db; 
+    outline: none; 
+    background-color: #fff; 
+  }
+  
+  
+.immagine-hover {
+    width: 100%;  
+    height: auto;
+    max-width: 200px; 
+    transition: transform 0.3s ease; 
+}
+
+
+.immagine-hover:hover {
+    transform: scale(1.2); 
+}
+
+
+#prodotti {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+#prodotti th, #prodotti td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+button.aggiungi {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button.aggiungi:hover {
+    background-color: #45a049;
+}
+
+#carrello {
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 300px;
+    background-color: #f9f9f9;
+}
+
+#lista-carrello {
+    list-style-type: none;
+    padding: 0;
+}
+
+#lista-carrello li {
+    margin-bottom: 10px;
+}
+
